@@ -1,0 +1,84 @@
+#header{
+    width: 100%;
+    padding: 15px 40px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+
+    justify-content: space-between;
+
+
+    color: white;
+    background: var(--primaryColor);
+}
+
+#headerLogo{
+    font-size: 60px;
+}
+
+#navbar{
+    /* width: 50%; */
+    flex-flow: row;
+    /* background-color: black; */
+}
+
+#navbar >  ul{
+    width: 100%;
+    padding: 5px 10px;
+
+    flex-flow: row;
+    gap: 20px;
+
+    /* background-color: aqua; */
+}
+
+#navbar >  ul > li{
+    flex-flow: row;
+    /* background-color: brown; */
+}
+
+
+#openMenu{
+    display: none;
+}
+
+#openMenu > ion-icon{
+    font-size: xx-large;
+}
+
+/* MENU */
+#menu{
+    width: 100%;
+    padding: 30px;
+
+    position: absolute;
+    top: 85px;
+    left: 0;
+    z-index: 2;
+
+    display: none;
+
+    background-color: var(--primaryColor);
+}
+
+#menu > ul{
+    width: 100%;
+
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+}
+
+#menu > ul > li{
+    width: 100%;
+    padding: 10px;
+}
+
+#menu > ul > li:hover{
+    color: black;
+    background-color: var( --terciaryColor );
+}

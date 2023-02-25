@@ -1,0 +1,131 @@
+@media only screen and (max-width: 1250px){
+    #main{
+        justify-content: center;
+    }
+    #apresentation{
+        width: 70%;
+        padding: 30px;
+        gap: 20px;
+
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #advogados{
+        width: 100%;
+    
+        justify-content: center;
+    }
+
+    #footerLogo_socials{
+        width: 100%;
+
+        justify-content: center;
+        align-items: center;
+
+        text-align: center;
+    }
+
+    #socials{
+        justify-content: center;
+        align-items: center;
+    }
+
+    #footerContent{
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+}
+
+@media only screen and (max-width: 1100px){
+    #balanca{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    #escritorio{
+        padding: 0 50px;
+
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+    }
+
+    #escritorioApresentation{
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+    #footer{
+        padding: 0 20px;
+    }
+
+    #footerContent{
+        gap: 40px; 
+    }
+
+    .footerCard{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    #advContent{
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .advCard{
+        width: 70%;
+    }
+    .advCard > img {
+        height: 200px;
+    }
+
+    #escritorioApresentarion > p{
+        font-size: medium;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .footerCard{
+        width: 100%;
+    }
+
+    #orionCopyrights{
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    :root{
+        --escritorioSliderDim: 300px;
+    }
+
+    #escritorioSlider::before{
+        content: none;
+    }
+
+    #mainDivisor > .card{
+        height: 130px;
+    }
+}

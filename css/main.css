@@ -1,0 +1,138 @@
+:root{
+    --advSlider: 600px;
+    --advDim: 200px;
+}
+
+#main{
+    margin-top: 80px;
+
+    justify-content: space-between;
+    align-items: flex-start;
+    
+    color: white;
+    background: var(--secundaryColor);
+}
+
+/* APRESENTATION */
+#apresentation{
+    width: 30%;
+    padding: 50px;
+
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+#apresentation > h3{
+    font-size: xx-large;
+}
+
+#apresentation > p{
+    font-size: x-large;
+}
+
+#apresentation > button{
+    padding: 10px;
+
+    flex-flow: row;
+    gap: 20px;
+
+    background: var(--secundaryColor);
+
+    cursor: pointer;
+
+    border: 2px solid var(--terciaryColor);
+}
+
+
+/* ADVOGADOS */
+#advogados{
+    width: auto;
+
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+
+#advContent{
+    padding: 20px;
+    
+    justify-content: flex-end;
+    align-items: flex-start;
+
+    gap: 30px;
+
+    /* background-color: blue; */
+}
+
+.advCard{
+    width: 250px;
+    padding: 20px;
+
+    flex-flow: column;
+    gap: 15px;
+    
+    text-align: center;
+    background-color: var(--primaryColor);
+    
+    border: 1px solid var(--terciaryColor);
+    border-radius: 20px;
+}
+
+.advCard > img{
+    width: var(--advDim);
+    height: 100%;
+}
+
+.advCard > h3{
+    font-size: xx-large;
+}
+
+.advCard > {
+    /* width: 70%; */
+    font-size: large;
+}
+
+
+
+
+/* DIVISOR */
+
+#mainDivisor{
+    padding: 40px 60px;
+
+    gap: 30px;
+
+
+    color: var(--terciaryColor);
+    background-color: rgba(182, 157, 116, .7);
+}
+
+#mainDivisor > .card{
+    height: 100px;
+    flex-flow: row;
+}
+
+#mainDivisor > .card > .cardIcon{
+    height: 100%;
+    padding: 0 20px;
+
+    color: white;
+    background-color: var(--terciaryColor);
+}
+
+#mainDivisor > .card > .cardIcon > .icon > i{
+    font-size: 50px;
+}
+
+
+.cardContent{
+    height: 100%;
+    padding: 0 30px;
+    flex-flow: column;
+    align-items: flex-start;
+    gap: 10px;
+
+    background-color: white;
+}

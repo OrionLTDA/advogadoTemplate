@@ -1,0 +1,98 @@
+#footer{
+    padding: 0 50px;
+
+    flex-flow: column;
+
+    color: white;
+    background-color: var(--primaryColor);
+
+    position: relative;
+    bottom: 0; 
+}
+
+#footerContent{
+    width: 100%;
+
+    padding: 30px 50px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 100px;
+}
+
+
+/* FOOTER LOGO & SOCIALS */
+#footerLogo_socials{
+    width: 300px;
+
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px
+}
+
+#footerLogo{
+    font-size: xx-large;
+}
+
+#socials{
+    width: 100%;
+
+    flex-flow: row;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+
+/* FOOTER CARD */
+.footerCard{
+    --gap: 15px;
+
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: calc( var(--gap) * 2 ) ;
+}
+
+.footerCard > p{
+    font-size: xx-large;
+    border-bottom: 2px solid var(--terciaryColor);
+}
+
+.footerCard > ul{
+    flex-flow: column;
+    gap: var(--gap);
+}
+
+.footerCard > ul > li{
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: var(--gap);
+}
+
+.footerCard > ul > li > p, 
+.footerCard > ul > li > ion-icon{
+    font-size: large;
+}
+
+.footerCard > ul > li > ion-icon{
+    color: var(--terciaryColor);
+}
+
+
+
+/* ORION COPYRIGHTS */
+
+#orionCopyrights{
+    width: 90%;
+
+    padding: 30px 0;
+    
+    justify-content: space-between;
+
+    border-top: 1px solid gray ;
+}
+
+#orionLogo{
+    cursor: pointer;
+}
